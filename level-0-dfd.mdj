@@ -1,0 +1,422 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGQh99NwVIz7LM=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGQh99NwVI0VhQ=",
+					"_parent": {
+						"$ref": "AAAAAAGQh99NwVIz7LM="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGQh99vDlI6Yrk=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQh99vDlI4jro="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh99vD1JA/58=",
+									"_parent": {
+										"$ref": "AAAAAAGQh99vDlI6Yrk="
+									},
+									"font": "Arial;18;0",
+									"left": 34,
+									"top": 245,
+									"width": 124,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh99vDlI7XLU=",
+									"_parent": {
+										"$ref": "AAAAAAGQh99vDlI6Yrk="
+									},
+									"font": "Arial;18;0",
+									"left": 34,
+									"top": 250,
+									"width": 124,
+									"height": 18,
+									"text": "USER",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh99vD1I8P2k=",
+									"_parent": {
+										"$ref": "AAAAAAGQh99vDlI6Yrk="
+									},
+									"font": "Arial;18;0",
+									"left": -72,
+									"top": 48,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 24,
+							"top": 240,
+							"width": 144,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGQh99vDlI7XLU="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAGQh999JlJFKBg=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQh999JlJDEik="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh999JlJGJZ4=",
+									"_parent": {
+										"$ref": "AAAAAAGQh999JlJFKBg="
+									},
+									"font": "Arial;22;0",
+									"left": 338,
+									"top": 250,
+									"width": 92,
+									"height": 66,
+									"text": "Live Bus Tracking System",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh999JlJHxME=",
+									"_parent": {
+										"$ref": "AAAAAAGQh999JlJFKBg="
+									},
+									"font": "Arial;22;0",
+									"left": 338,
+									"top": 213,
+									"width": 92,
+									"height": 22
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 328,
+							"top": 208,
+							"width": 112,
+							"height": 118,
+							"nameLabel": {
+								"$ref": "AAAAAAGQh999JlJGJZ4="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAGQh999JlJHxME="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGQh9+HRlJQOJ4=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQh9+HRlJOeAM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh9+HRlJWuPs=",
+									"_parent": {
+										"$ref": "AAAAAAGQh9+HRlJQOJ4="
+									},
+									"font": "Arial;22;0",
+									"left": 594,
+									"top": 229,
+									"width": 121.4296875,
+									"height": 22
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh9+HRlJRRwU=",
+									"_parent": {
+										"$ref": "AAAAAAGQh9+HRlJQOJ4="
+									},
+									"font": "Arial;22;0",
+									"left": 594,
+									"top": 234,
+									"width": 121.4296875,
+									"height": 44,
+									"text": "BUS OPERATOR",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGQh9+HRlJSlsk=",
+									"_parent": {
+										"$ref": "AAAAAAGQh9+HRlJQOJ4="
+									},
+									"font": "Arial;22;0",
+									"left": -64,
+									"top": -40,
+									"height": 22
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 584,
+							"top": 224,
+							"width": 141.4296875,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGQh9+HRlJRRwU="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGQh/0gUVKGN2A=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQh/0gUFKEdB4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGQh/0gUVKHKck=",
+									"_parent": {
+										"$ref": "AAAAAAGQh/0gUVKGN2A="
+									},
+									"model": {
+										"$ref": "AAAAAAGQh/0gUFKEdB4="
+									},
+									"font": "Arial;15;0",
+									"left": 184,
+									"top": 223,
+									"width": 105,
+									"height": 30,
+									"alpha": -4.294164960083854,
+									"distance": 29.546573405388315,
+									"hostEdge": {
+										"$ref": "AAAAAAGQh/0gUVKGN2A="
+									},
+									"edgePosition": 1,
+									"text": "Request Bus Location",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGQh999JlJFKBg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGQh99vDlI6Yrk="
+							},
+							"lineStyle": 2,
+							"points": "168:266;328:266",
+							"nameLabel": {
+								"$ref": "AAAAAAGQh/0gUVKHKck="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGQh/6++FKcpZs=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQh/6++FKa+U8="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGQh/6++FKdq44=",
+									"_parent": {
+										"$ref": "AAAAAAGQh/6++FKcpZs="
+									},
+									"model": {
+										"$ref": "AAAAAAGQh/6++FKa+U8="
+									},
+									"font": "Arial;15;0",
+									"left": 176,
+									"top": 278,
+									"width": 124,
+									"height": 30,
+									"alpha": 1.2160910004776024,
+									"distance": 28.792360097775937,
+									"hostEdge": {
+										"$ref": "AAAAAAGQh/6++FKcpZs="
+									},
+									"edgePosition": 1,
+									"text": "Receive Bus  Location Info",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGQh99vDlI6Yrk="
+							},
+							"tail": {
+								"$ref": "AAAAAAGQh999JlJFKBg="
+							},
+							"lineStyle": 2,
+							"points": "328:266;168:266",
+							"nameLabel": {
+								"$ref": "AAAAAAGQh/6++FKdq44="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAGQiAEaOFLIb0I=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99NwVI0VhQ="
+							},
+							"model": {
+								"$ref": "AAAAAAGQiAEaOFLGy0I="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGQiAEaOFLJrrU=",
+									"_parent": {
+										"$ref": "AAAAAAGQiAEaOFLIb0I="
+									},
+									"model": {
+										"$ref": "AAAAAAGQiAEaOFLGy0I="
+									},
+									"font": "Arial;15;0",
+									"left": 472,
+									"top": 279,
+									"width": 86,
+									"height": 30,
+									"alpha": 1.6738782764940552,
+									"distance": 29.154759474226502,
+									"hostEdge": {
+										"$ref": "AAAAAAGQiAEaOFLIb0I="
+									},
+									"edgePosition": 1,
+									"text": "Provide Bus Location",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAGQh999JlJFKBg="
+							},
+							"tail": {
+								"$ref": "AAAAAAGQh9+HRlJQOJ4="
+							},
+							"lineStyle": 2,
+							"points": "584:266;440:266",
+							"nameLabel": {
+								"$ref": "AAAAAAGQiAEaOFLJrrU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGQh99vDlI4jro=",
+					"_parent": {
+						"$ref": "AAAAAAGQh99NwVIz7LM="
+					},
+					"name": "USER",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGQh/0gUFKEdB4=",
+							"_parent": {
+								"$ref": "AAAAAAGQh99vDlI4jro="
+							},
+							"name": "Request Bus Location",
+							"source": {
+								"$ref": "AAAAAAGQh99vDlI4jro="
+							},
+							"target": {
+								"$ref": "AAAAAAGQh999JlJDEik="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGQh999JlJDEik=",
+					"_parent": {
+						"$ref": "AAAAAAGQh99NwVIz7LM="
+					},
+					"name": "Live Bus Tracking System",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGQh/6++FKa+U8=",
+							"_parent": {
+								"$ref": "AAAAAAGQh999JlJDEik="
+							},
+							"name": "Receive Bus  Location Info",
+							"source": {
+								"$ref": "AAAAAAGQh999JlJDEik="
+							},
+							"target": {
+								"$ref": "AAAAAAGQh99vDlI4jro="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGQh9+HRlJOeAM=",
+					"_parent": {
+						"$ref": "AAAAAAGQh99NwVIz7LM="
+					},
+					"name": "BUS OPERATOR",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAGQiAEaOFLGy0I=",
+							"_parent": {
+								"$ref": "AAAAAAGQh9+HRlJOeAM="
+							},
+							"name": "Provide Bus Location",
+							"source": {
+								"$ref": "AAAAAAGQh9+HRlJOeAM="
+							},
+							"target": {
+								"$ref": "AAAAAAGQh999JlJDEik="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
